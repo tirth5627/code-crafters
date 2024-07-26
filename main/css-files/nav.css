@@ -32,16 +32,29 @@
 .lis{
     list-style: none;
  font-size: 1.1rem;
+  padding: 5px;
+  border-radius: 10px;
 }
 .icons{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 80px;
+    gap: 65px;
 }
-.signup{
+#signup{
     border-radius: 10px;
     position: relative;
     font-size: 1.3rem;
     right: 50px;
+}
+#signup:hover{
+    font-size: 1.4rem;
+    background-color: darkslategray;
+}
+.lis:hover{
+    font-size: 1.15rem;
+    background-color: darkslategray;
+}
+.footchild{
+    max-width: 20%;
 }
