@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navigation{
+    background-color: rgb(204, 239, 204);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    margin: 0px 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: auto;
+    padding-left: 15px;
+    gap: 15px;
+
+}
+.left h2{
+    color: darkslategray;
+    text-shadow: 2px 0px 5px rgb(55, 91, 1);
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 250px;
+}
+.lis{
+    list-style: none;
+ font-size: 1.1rem;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.signup{
+    border-radius: 10px;
+    position: relative;
+    font-size: 1.3rem;
+    right: 50px;
+}
