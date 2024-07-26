@@ -4,9 +4,10 @@
 }
 .navigation{
     background-color: rgb(204, 239, 204);
-    margin: auto;
+    margin: 15px 2px;
     display: flex;
     justify-content: space-between;
+    height: 75px;
 }
 .left{
     display: flex;
@@ -18,7 +19,7 @@
     gap: 15px;
 
 }
-.left h2{
+.left h1{
     color: darkslategray;
     text-shadow: 2px 0px 5px rgb(55, 91, 1);
 }
@@ -26,7 +27,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 250px;
+    gap: 290px;
 }
 .lis{
     list-style: none;
@@ -36,7 +37,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 60px;
+    gap: 80px;
 }
 .signup{
     border-radius: 10px;
