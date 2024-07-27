@@ -3,58 +3,83 @@
     padding: 0px;
 }
 .navigation{
-    background-color: rgb(204, 239, 204);
-    margin: 15px 2px;
+    background-color: rgb(204, 240, 192);
+    margin: 10px 0px;
     display: flex;
     justify-content: space-between;
     height: 75px;
 }
 .left{
     display: flex;
+    justify-content: space-evenly;
     margin: 0px 10px;
     align-items: center;
-    justify-content: space-evenly;
     padding: auto;
     padding-left: 15px;
     gap: 15px;
-
 }
 .left h1{
     color: darkslategray;
     text-shadow: 2px 0px 5px rgb(55, 91, 1);
 }
 .right{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 290px;
+    display: contents;
 }
 .lis{
     list-style: none;
- font-size: 1.1rem;
-  padding: 5px;
+    font-size: 1.1rem;
+   padding: 5px;
   border-radius: 10px;
 }
 .icons{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 65px;
+    gap: 70px;
 }
 #signup{
     border-radius: 10px;
-    position: relative;
+    margin-right: 80px;
     font-size: 1.3rem;
-    right: 50px;
+    height: 30px;
+    width: 70px;
+    align-self: center;
+    padding-top: 8px;
+    text-align: center;
 }
 #signup:hover{
-    font-size: 1.4rem;
     background-color: darkslategray;
+    color: rgb(13, 36, 57);
+    p{
+        filter: invert(1);
+    }
+}
+.underline{
+    position: absolute;
+    background-color: rgb(13, 36, 57);
+    height: 4px;
+    border-radius: 10px;
+    display: none;
+}
+#li1{
+    width: 45px;
+}
+#li2{
+    width: 65px;
+}
+#li3{
+    width: 40px;
+}
+#li4{
+    width: 40px;
+}
+#li5{
+    width: 75px;
 }
 .lis:hover{
     font-size: 1.15rem;
-    background-color: darkslategray;
-}
-.footchild{
-    max-width: 20%;
+    color: rgb(13, 36, 57);
+    .underline{
+        display: block;
+    }
 }
