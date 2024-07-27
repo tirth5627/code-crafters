@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .navigation{
-    background-color: rgb(204, 240, 192);
+    background: linear-gradient(rgb(61, 197, 61) ,black,black,black);
     margin: 10px 0px;
     display: flex;
     justify-content: space-between;
@@ -19,7 +19,6 @@
     gap: 15px;
 }
 .left h1{
-    color: darkslategray;
     text-shadow: 2px 0px 5px rgb(55, 91, 1);
 }
 .right{
@@ -46,13 +45,15 @@
     align-self: center;
     padding-top: 8px;
     text-align: center;
+   
 }
 #signup:hover{
-    background-color: darkslategray;
+    background-color: rgb(61, 103, 92);
     color: rgb(13, 36, 57);
     p{
         filter: invert(1);
     }
+    background: linear-gradient(rgb(240, 17, 155))
 }
 .underline{
     position: absolute;
@@ -60,6 +61,8 @@
     height: 4px;
     border-radius: 10px;
     display: none;
+    transition: all;
+    transition-duration: 5s;
 }
 #li1{
     width: 45px;
