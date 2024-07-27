@@ -48,7 +48,7 @@
    
 }
 #signup:hover{
-    background-color: rgb(61, 103, 92);
+    background: linear-gradient(black,black,rgb(217, 15, 200));
     color: rgb(13, 36, 57);
     p{
         filter: invert(1);
