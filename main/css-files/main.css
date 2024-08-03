@@ -1,0 +1,14 @@
+.img-text{
+    position: absolute;
+    top: 49% ;
+    left: 19%;
+ /* background-color: red; */
+ display: flex;
+    justify-content: space-around;
+    width: 65%;
+    height: 20%;
+ 
+}
+.typing{
+    font-size: 4.25rem;
+}

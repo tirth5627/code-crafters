@@ -13,6 +13,7 @@ html{
     filter: invert(1);
 }
 footer{
+    position: relative;
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(29, 21, 21);

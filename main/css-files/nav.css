@@ -4,7 +4,6 @@
 }
 .navigation{
     background: linear-gradient(rgb(61, 197, 61) ,black,black,black);
-    margin: 10px 0px;
     display: flex;
     justify-content: space-between;
     height: 75px;
@@ -85,4 +84,5 @@
     .underline{
         display: block;
     }
+    
 }
