@@ -1,24 +1,16 @@
-main{
-    flex: 1;
-}
-body {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-html{
-    height: 100%;
-}
+
 .f {
     filter: invert(1);
 }
 footer{
-    position: relative;
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(29, 21, 21);
     min-height: 30vh;
     align-items: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 .f-li{
     filter: invert(1);
