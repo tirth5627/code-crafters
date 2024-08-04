@@ -12,3 +12,7 @@
 .typing{
     font-size: 4.25rem;
 }
+ main{
+    display: grid;
+    gap: 0;
+ }
