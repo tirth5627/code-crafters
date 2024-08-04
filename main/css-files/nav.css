@@ -6,6 +6,10 @@
   font-weight: 300;
   font-style: normal;
 }
+.nav-appear{
+    background-image: url("../svg-images/nav-background.png");
+    background-size: 100% 100%;
+}
 .navigation{
     display: flex;
     justify-content: space-between;
