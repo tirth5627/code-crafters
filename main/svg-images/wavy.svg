@@ -1,5 +1,14 @@
 
-<svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<!-- <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+      <stop stop-color="rgb(248, 232, 213)" offset="0%"></stop>
+      <stop stop-color="rgb(248, 232, 213)" offset="100%"></stop>
+    </linearGradient>
+  </defs>
+  <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,60 C80,50 160,40 240,45 C320,50 400,60 480,55 C560,50 640,45 720,50 C800,55 880,65 960,60 C1040,55 1120,50 1200,60 C1280,70 1360,65 1440,60 L1440,100 L0,100 Z"></path>
+</svg> -->
+<svg id="wave" style="transform:rotate(0deg); transition: 0.3s; width: 720px; height: 50px;" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
       <stop stop-color="rgb(248, 232, 213)" offset="0%"></stop>

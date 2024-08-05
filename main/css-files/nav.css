@@ -6,9 +6,17 @@
   font-weight: 300;
   font-style: normal;
 }
+html {
+    scroll-behavior: smooth;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
 .nav-appear{
     background-image: url("../svg-images/nav-background.png");
     background-size: 100% 100%;
+    /* background-color: rgb(248, 232, 213); */
 }
 .navigation{
     display: flex;
@@ -29,7 +37,9 @@
     gap: 15px;
 }
 .left h1{
-    text-shadow: 2px 0px 5px rgb(242, 8, 94);
+    text-shadow: 3px 0px 6px rgb(8, 249, 177);
+    color: white;
+    font-weight: 500;
 }
 .right{
     display: contents;
@@ -39,6 +49,7 @@
     font-size: 1.1rem;
    padding: 5px;
   border-radius: 10px;
+  font-weight: 400;
 }
 .icons{
     display: flex;
@@ -61,6 +72,7 @@
 #signup p{
     color: white;
     font-size: 1.15rem;
+    font-weight: 400;
 }
 #signup:hover{
     border: 2px solid white;
@@ -83,9 +95,9 @@
     width: 0px
 }
 .lis:hover{
-    font-size: 1.15rem;
+    font-size: 1.15;
     color: rgb(13, 36, 57);
-    font-weight: bold;
+    font-weight: 700;
 #li1{
     width: 55px;
 }

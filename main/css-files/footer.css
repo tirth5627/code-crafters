@@ -6,7 +6,7 @@ footer{
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(29, 21, 21);
-    min-height: 30vh;
+    min-height: 45vh;
     align-items: center;
     position: relative;
     bottom: 0;
