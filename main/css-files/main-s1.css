@@ -40,13 +40,13 @@ left: 19%;
 
 .typing:nth-child(1) {
     visibility: hidden;
-    transition: transform .5s,visibility .1s;
+    transition: transform 1.25s,visibility .5s;
     transform: translatey(-150%);
 }
 
 .typing:nth-child(2) {
     visibility: hidden;
-    transition: transform .5s,visibility .2s ease-in-out;
+    transition: transform 1.25s,visibility .5s;
     transform: translatey(150%);
 
 }

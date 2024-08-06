@@ -9,13 +9,13 @@
     max-width: 40%;
     max-height: 40%;
     border-radius: 20px;
-    transition: transform 1.25s;
+    transition: transform 1.25s,visibility .5s;
 }
 
 .s2-content {
     max-width: 40%;
     max-height: 40%;
-    transition: transform 1.25s;
+    transition: transform 1.25s,visibility .5s;
 }
 
 .s2-content h2 {
@@ -42,16 +42,16 @@ section {
 .s2-img:nth-child(even),
 .s2-content:nth-child(even) {
     visibility: hidden;
-    transform: translate(-100%, -100%);
+    transform: translatex(100%);
 }
 
 .s2-img:nth-child(odd),
 .s2-content:nth-child(odd) {
     visibility: hidden;
-    transform: translate(100%, 100%);
+    transform: translatex(-100%);
 }
 
-
+/* 
 .s2-img:nth-child(even),
 .s2-content:nth-child(even) {
     visibility: hidden;
@@ -62,17 +62,17 @@ section {
 .s2-content:nth-child(odd) {
     visibility: hidden;
     transform: translate(-100%, -100%);
-}
+} */
 
 
 .s2-appear {
     .s2-content {
         visibility: visible;
-        transform: translate(0%, 0%);
+        transform: translatex(0%);
     }
 
     .s2-img {
         visibility: visible;
-        transform: translate(0%, 0%);
+        transform: translatex(0%);
     }
 }

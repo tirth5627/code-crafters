@@ -1,0 +1,11 @@
+.section3{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    max-width: 49.5%;
+    margin: 0 0 8% 0;
+}
+.translate{
+    transform: translateY(100%);
+}

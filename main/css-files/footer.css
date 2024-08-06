@@ -16,6 +16,9 @@ footer{
     filter: invert(1);
     margin: 4px 0px;
 }
+.m{
+    margin: 4px 0px;
+}
 .social-media{
 display: flex;
 gap: 20px;
