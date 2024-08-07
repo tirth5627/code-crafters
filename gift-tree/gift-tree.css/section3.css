@@ -1,6 +1,7 @@
 .section3{
     display: flex;
     justify-content: center;
+    min-width: 4%;
 }
 .content{
     max-width: 49.5%;

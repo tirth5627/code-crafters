@@ -1,0 +1,161 @@
+/* * {
+  overflow: auto;
+  box-sizing: border-box;
+} */
+
+body {
+
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sustainable-message {
+  text-align: center;
+ padding: auto;
+ padding-top: 10%;
+ padding-bottom: 2%;
+  margin: auto;
+  width: 80%;
+  /* background: linear-gradient(135deg, #a8e063, #56ab2f); */
+  color: white;
+  border-radius: 20px;
+  font-size: 2em;
+  font-weight: bold;
+
+}
+
+.sustainable-message span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.Heading {
+  text-align: center;
+  font-size: 6vh;
+  color: #b6ffb9;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  position: relative;
+  border: 1px solid teal;
+  border-radius: 23px;
+  padding: 7px 12px;
+  width: 290px;
+  height: 290px;
+  margin: 12px 13px;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+  transform: translateY(0);
+  transition: transform 0.34s ease, box-shadow 0.34s ease;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/022/506/525/large_2x/green-energy-sustainable-industry-environmental-social-and-corporate-governance-concept-free-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.95;
+  z-index: -1;
+  border-radius: 23px;
+}
+.img1 {
+  height: 48px;
+  width: 48px;
+
+  transition: height 0.3s, width 0.3s;
+}
+.img2 {
+  height: 43px;
+  width: 43px;
+  transition: height 0.3s, width 0.3s;
+}
+
+.img1 {
+  /* margin-right: 70px;
+  margin-top: 30px; */
+}
+
+.card h2 {
+  color: #000000;
+  text-shadow: 3px 1px 6px rgba(246, 246, 246, 0.7);
+  font-size: 5vh;
+  font-weight: bold;
+  margin: 0.5em 0; 
+  line-height: 1.2;
+}
+
+.card:hover {
+  box-shadow: 4px 5px 3px 1px rgb(74, 2, 50);
+  transform: translateY(-15px);
+}
+
+.img1:hover, .img2:hover {
+  height: 58px;
+  width: 58px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .sustainable-message {
+    width: 95%;
+    font-size: 1.5em;
+    padding: 30px;
+  }
+
+  .Heading {
+    font-size: 2em;
+  }
+
+  .CONTACTFORM {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 90%;
+    /* margin: 10px auto; */
+  }
+}
+
+@media (max-width: 480px) {
+  .sustainable-message {
+    font-size: 1.2em;
+    padding: 20px;
+  }
+
+  .Heading {
+    font-size: 1.5em;
+  }
+
+  .card h2 {
+    font-size: 4vh;
+  }
+
+  .img1 {
+    margin-right: 30px;
+  }
+}

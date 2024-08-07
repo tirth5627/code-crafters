@@ -18,7 +18,7 @@ align-items: center;
 width: 25%;
 height: 70px;
 border-radius: 20px;
-background-color: rgb(47, 218, 178);
+background-color: rgb(147, 240, 139);
 }
 
 .input{
@@ -57,11 +57,7 @@ button {
     }
     width: 95%;
   }
-  .hover:hover{
-    background-color: rgb(55, 169, 169);
-    z-index: 0;
-  }
   .bg{
-    background-color: rgb(4, 81, 81);
+    background-color: rgb(34, 137, 5);
 z-index: 1;  
 }
