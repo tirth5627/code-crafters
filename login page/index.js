@@ -9,19 +9,19 @@ LoginLink.addEventListener('click',()=>{
     container.classList.toggle('active');
 })
 const register=document.querySelector(".rbutton");
-const rpass=document.querySelector(".rpass").value;
-const r=document.querySelector(".rtext").value;
 
 register.addEventListener('click',()=>{  
+    const rpass=document.querySelector(".rpass").value;
+    const r=document.querySelector(".rtext").value;
 localStorage.setItem(r,rpass);
 alert("Registration successfull!")
 container.classList.toggle('active');
 })
-const text=document.querySelector(".lusername").value;
-const lpass=document.querySelector(".lpass").value;
-const login=document.querySelector(".lsub");
- function fun(){
-if(localStorage.getItem(text)==lpass){
+function fun(){
+    const text=document.querySelector(".lusername").value;
+    const lpass=document.querySelector(".lpass").value;
+    const login=document.querySelector(".lsub");
+    if(localStorage.getItem(text)==lpass){
 
     document.querySelector(".lusername").value=""
    document.querySelector(".lpass").value="" 
