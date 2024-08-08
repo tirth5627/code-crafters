@@ -5,6 +5,9 @@
     font-family: "poppins";
     color: #fff;
 }
+::-ms-reveal {
+    filter: invert(100%);
+  }
 body{
     display: flex;
     justify-content: center;
