@@ -28,5 +28,6 @@ window.location.assign("../main/main.html")
 }
 else{
 alert("You are not registered")
+container.classList.toggle('active');
 }
 }
